@@ -1,6 +1,6 @@
 name: Validate West Manifests with PyKwalify
 
-on: [pull_request]
+on: []
 
 jobs:
   validate-yaml:

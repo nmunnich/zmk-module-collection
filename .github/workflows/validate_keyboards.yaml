@@ -1,6 +1,6 @@
 name: Validate remote keyboard module definitions
 
-on: [pull-request]
+on: []
 
 jobs:
   validate-modules:

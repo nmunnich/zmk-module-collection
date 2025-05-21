@@ -2,7 +2,7 @@ name: Import ZMK YAML files into .yaml-mirrors
 # This workflow imports ZMK YAML files into the .yaml-mirrors directory
 # and commits them to the repository.
 
-on: [push, pull-request]
+on: [push]
 
 permissions:
   contents: write # Required to push changes to the repository
