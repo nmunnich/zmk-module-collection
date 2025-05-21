@@ -1,6 +1,14 @@
 manifest:
+  defaults:
+    revision: v0.2
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   group-filter: [-placeholder]
   projects:
+    - name: zmk
+      remote: zmkfirmware
+      import: app/west.yml
     - name: zmk-module-placeholder
       url: git@github.com:Nick-Munnich/zmk-module-template.git
       revision: main

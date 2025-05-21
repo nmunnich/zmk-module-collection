@@ -1,0 +1,41 @@
+## A pykwalify schema for validation of zephyr/module.yml found within
+## keyboard modules. Intentionally very restrictive.
+# --------------------------------------------------------------
+# This file is copied from west and modified to be more restrictive. 
+# Do not use outside of this repo.
+# --------------------------------------------------------------
+
+schema;groups-schema:
+  type: seq
+  sequence:
+    - type: str
+    - type: int
+    - type: float
+  matching: any
+
+type: map
+mapping:
+  name:
+    required: true
+    type: text
+
+  # The "defaults" key specifies some default values used in the
+  # rest of the manifest.
+  build:
+    required: true
+    type: map
+    mapping:
+      # The name of the default remote.
+      depends:
+        required: false
+        type: seq
+        sequence:
+          - type: text
+      # The default revision (master if not given).
+      settings:
+        required: true
+        type: map
+        mapping:
+          board_root:
+            required: true
+            type: text

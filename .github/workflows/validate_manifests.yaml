@@ -1,0 +1,28 @@
+name: Validate West Manifests with PyKwalify
+
+on: [pull_request]
+
+jobs:
+  validate-yaml:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11'
+
+    - name: Install PyKwalify
+      run: pip install pykwalify
+
+    - name: Validate YAML file
+      run: |
+        # Define your schema file path and YAML file path
+        SCHEMA_FILE="./.tools/manifest-schema.yml"
+        # Loop through each YAML file in the directory and validate it
+        ls -R ./components
+        find keyboards -type f -name "*.yml" -exec pykwalify -d {} -s "$SCHEMA_FILE" \;
+        find components -type f -name "*.yml" -exec pykwalify -d {} -s "$SCHEMA_FILE" \;

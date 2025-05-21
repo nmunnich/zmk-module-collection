@@ -6,4 +6,4 @@ manifest:
     - name: zmk-keyboards-lesshonor-stewardship
       repo-path: stewardship-zmk-module
       remote: lesshonor
-      revision: 23d351307a65f61b84cf49f2f5fb5f3c17a4d778
+      revision: ad91d7a692a0ac896d499a87ce984aa7f1fc6051

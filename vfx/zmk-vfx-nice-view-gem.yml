@@ -3,6 +3,7 @@ manifest:
     - name: m165437 
       url-base: https://github.com/M165437
   projects:
-    - name: nice-view-gem 
+    - name: zmk-vfx-nice-view-gem 
+      repo-path: nice-view-gem 
       remote: m165437
       revision: 3f38221c61ec4b129730753611f58bf65082d2fc

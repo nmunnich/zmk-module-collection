@@ -1,0 +1,44 @@
+name: Validate remote keyboard module definitions
+
+on: [pull-request]
+
+jobs:
+  validate-modules:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          path: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11'
+
+      - name: Install PyKwalify
+        run: pip install pykwalify west
+
+      - name: West Init
+        run: west init -l main
+
+      - name: West Update
+        run: west update
+
+      - name: Find and copy YAML files
+        run: |
+          SCHEMA_FILE="./main/.tools/schemas/keyboard_module_schema.yml"
+
+          find . -path "./zmk-keyboards-*/zephyr/module.yml" -type f -exec pykwalify -d {} -s "$SCHEMA_FILE" \;
+
+      - name: Check for files with execute permissions
+        run: |
+          # Find files with execute permissions in the target folder
+          if find . -path "./zmk-keyboards-*" -type f -perm /111 -not -path "*/.git/hooks/*" | grep -q .; then
+            echo "Error: Found files with execute permissions:"
+            find . -path "./zmk-keyboards-*" -type f -perm /111 -not -path "*/.git/hooks/*"
+            exit 1
+          else
+            echo "No files with execute permissions found."
+          fi
