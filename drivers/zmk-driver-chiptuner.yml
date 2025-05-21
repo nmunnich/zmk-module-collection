@@ -3,7 +3,7 @@ manifest:
     - name: petejohanson
       url-base: https://github.com/petejohanson/
   projects:
-    - name: zmk-driver-cirque-pinnacle
+    - name: zmk-driver-chiptuner
       remote: petejohanson
-      repo-path: cirque-input-module
+      repo-path: chiptuner-zmk-module
       revision: f05e8773504e00572d7cb2987e6beb004967ab9c
