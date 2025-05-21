@@ -1,0 +1,11 @@
+file_format: "1"
+id: vida
+name: vida
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+url: https://cannonkeys.com/

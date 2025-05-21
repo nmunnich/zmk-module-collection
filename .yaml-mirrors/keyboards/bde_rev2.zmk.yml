@@ -1,0 +1,12 @@
+file_format: "1"
+id: bde_rev2
+name: BDE Rev2
+type: shield
+url: https://mechwild.com/product/big-dill-extended-bde/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+  - underglow

@@ -1,0 +1,11 @@
+file_format: "1"
+id: l4
+name: L4
+type: shield
+url: https://github.com/object1037/L4
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - l4_left
+  - l4_right

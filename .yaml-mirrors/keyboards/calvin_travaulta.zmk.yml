@@ -1,0 +1,10 @@
+file_format: "1"
+id: calvin_travaulta
+name: Travaulta
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+url: https://github.com/calvin-mcd/travaulta

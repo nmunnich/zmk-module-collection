@@ -1,0 +1,11 @@
+file_format: "1"
+id: minimi40
+name: minimi40
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+url: https://cannonkeys.com/

@@ -1,0 +1,8 @@
+file_format: "1"
+id: desolation
+name: Desolation
+type: shield
+url: https://github.com/miketronic/desolation
+requires: [pro_micro]
+features:
+  - keys

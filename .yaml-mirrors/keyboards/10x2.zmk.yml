@@ -1,0 +1,8 @@
+file_format: "1"
+id: 10x2
+name: 10x2
+type: shield
+url: https://github.com/miketronic/10x2
+requires: [waveshare_rp2040_zero]
+features:
+  - keys

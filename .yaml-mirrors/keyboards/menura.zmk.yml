@@ -1,0 +1,11 @@
+file_format: "1"
+id: menura
+name: menura
+type: shield
+url: https://github.com/rmuraglia/menura-kb
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - menura_left
+  - menura_right

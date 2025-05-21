@@ -1,0 +1,12 @@
+file_format: "1"
+id: humble40
+name: humble40
+description: A 12.5u WKL 40% offering uniform and standard row stagger configurations.
+type: board
+arch: arm
+outputs:
+  - usb
+url: https://eyeohdesigns.com/products/humble40
+features:
+  - keys
+  - backlight

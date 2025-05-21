@@ -1,0 +1,9 @@
+file_format: "1"
+id: zilpzalp_ble
+name: zilpzalp_ble
+type: shield
+url: https://github.com/kilipan/zilpzalp
+requires: 
+  - seeeduino_xiao_ble
+features:
+  - keys

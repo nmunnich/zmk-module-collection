@@ -1,0 +1,14 @@
+file_format: "1"
+id: ble_chiffre
+name: BLe Chiffre
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
+url: https://github.com/tominabox1/BLe-Chiffre
+exposes:
+  - i2c_oled
+features:
+  - keys
+  - display

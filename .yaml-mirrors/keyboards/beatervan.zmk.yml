@@ -1,0 +1,9 @@
+file_format: "1"
+id: beatervan
+name: Beatervan
+type: shield
+url: https://p3dstore.com/collections/40-or-smaller-acrylic-cases/products/beatervan-pcb-acrylic-keyboard-case
+#url: https://github.com/ojthetiny/beatervan
+requires: [pro_micro]
+features:
+  - keys

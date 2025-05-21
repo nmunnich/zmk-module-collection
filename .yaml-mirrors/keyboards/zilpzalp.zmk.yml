@@ -1,0 +1,9 @@
+file_format: "1"
+id: zilpzalp
+name: zilpzalp
+type: shield
+url: https://github.com/kilipan/zilpzalp
+requires: 
+  - seeeduino_xiao_rp2040
+features:
+  - keys

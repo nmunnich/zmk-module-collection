@@ -1,0 +1,11 @@
+file_format: "1"
+id: scallop
+name: scallop
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+url: https://rainkeebs.mx

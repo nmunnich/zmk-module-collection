@@ -1,0 +1,12 @@
+file_format: "1"
+id: photon
+name: photon
+type: board
+arch: arm
+features:
+  - keys
+  - underglow
+outputs:
+  - usb
+  - ble
+url: https://cannonkeys.com/

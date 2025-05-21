@@ -1,0 +1,10 @@
+file_format: "1"
+id: bbpad
+name: BBPad
+type: shield
+url: https://mechwild.com/product/bbpad/
+requires: [blackpill]
+features:
+  - keys
+  - encoder
+  - underglow

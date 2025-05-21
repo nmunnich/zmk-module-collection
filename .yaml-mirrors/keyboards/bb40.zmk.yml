@@ -1,0 +1,9 @@
+file_format: "1"
+id: bb40
+name: BB40
+type: shield
+url: https://mechwild.com/product/bb40/
+requires: [blackpill]
+features:
+  - keys
+  - encoder

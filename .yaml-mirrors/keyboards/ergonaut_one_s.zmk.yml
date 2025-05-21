@@ -1,0 +1,11 @@
+file_format: '1'
+id: ergonaut_one_s
+name: Ergonaut One S
+type: shield
+url: https://github.com/ergonautkb/scuffy
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - ergonaut_one_s_left
+  - ergonaut_one_s_right

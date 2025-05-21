@@ -1,0 +1,15 @@
+file_format: "1"
+id: phantom
+name: Phantom
+type: shield
+url: https://github.com/davidphilipbarr/Phantom/
+features:
+  - keys
+requires:
+  - [pro_micro]
+exposes:
+  - [i2c_oled]
+siblings:
+  - phantom_left
+  - phantom_right
+

@@ -1,0 +1,8 @@
+file_format: "1"
+id: rock_on_v1
+name: rock_on_v1
+type: shield
+url: https://github.com/sadekbaroudi/rock-on/
+requires: [pro_micro]
+features:
+  - keys

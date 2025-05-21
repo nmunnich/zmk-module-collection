@@ -1,0 +1,13 @@
+file_format: "1"
+id: qaz_rp2040
+name: QAZ (RP2040)
+description: Originally dreamed up by tominabox1, this incarnation of the 10.25u-wide keyboard has been revised with an RP2040 MCU by Quark (https://quark.works)
+type: board
+arch: arm
+outputs:
+  - usb
+url: https://www.cbkbd.com/product/qaz
+features:
+  - keys
+  - studio
+  - underglow
