@@ -1,8 +1,0 @@
-manifest:
-  remotes:
-    - name: badjeff
-      url-base: https://github.com/badjeff
-  projects:
-    - name: zmk-behavior-insomnia
-      remote: badjeff
-      revision: 97b2115a2f46d285130fb5136c823bd1e3c56144

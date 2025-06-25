@@ -1,0 +1,9 @@
+manifest:
+  remotes:
+    - name: badjeff
+      url-base: https://github.com/badjeff
+  projects:
+    - name: zmk-feature-output-behavior-listener
+      remote: badjeff
+      repo-path: zmk-output-behavior-listener
+      revision: d6f2f4c65b1c067d696e2d06d70602b7fde96951

@@ -5,4 +5,4 @@ manifest:
   projects:
     - name: zmk-behavior-insomnia
       remote: badjeff
-      revision: 97b2115a2f46d285130fb5136c823bd1e3c56144
+      revision: c74a4edf0a960d6ee963fb33ae41e31232d953b5
