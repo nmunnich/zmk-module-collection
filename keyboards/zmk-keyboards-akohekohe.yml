@@ -6,3 +6,6 @@ manifest:
     - name: zmk-keyboards-akohekohe
       remote: grassfedreeve
       revision: 92aa917e5690505dbd0d9bbda80d03564985035d
+  self:
+    import:
+      - keyboards/zmk-keyboards-desolation.yml

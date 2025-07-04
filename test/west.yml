@@ -1,8 +1,0 @@
-manifest:
-  projects:
-    - name: zmk-module-collection
-      url: git@github.com:Nick-Munnich/zmk-module-collection.git
-      revision: main
-      import:
-         name-allowlist: 
-             - zmk-keyboards-akohekohe

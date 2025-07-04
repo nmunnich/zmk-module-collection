@@ -10,7 +10,7 @@ manifest:
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-module-placeholder
-      url: git@github.com:Nick-Munnich/zmk-module-template.git
+      url: git@github.com:nmunnich/zmk-module-template.git
       revision: main
       groups: [placeholder]
   self:
