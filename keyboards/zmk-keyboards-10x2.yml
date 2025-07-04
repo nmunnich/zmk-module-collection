@@ -1,8 +1,0 @@
-manifest:
-  remotes:
-    - name: miketronic
-      url-base: https://github.com/miketronic
-  projects:
-    - name: zmk-keyboards-10x2
-      remote: miketronic
-      revision: 0ea684c7f9b6bba464b6907f533061a437bef498

@@ -7,4 +7,4 @@ manifest:
       remote: sadekbaroudi
       repo-path: zmk-fingerpunch-controllers
       revision: a15c575e39df02fe336231b79aa5edd1b281f321
-      import: config/deps.yml
+      #import: config/deps.yml

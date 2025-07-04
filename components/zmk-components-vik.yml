@@ -7,4 +7,4 @@ manifest:
       remote: sadekbaroudi
       repo-path: zmk-fingerpunch-vik
       revision: 27ba6f40c7ed43064c95103ef2f8d1278e375e1c
-      import: config/deps.yml
+      #import: config/deps.yml
